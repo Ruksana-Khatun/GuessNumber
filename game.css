@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+h1,h2,h3{
+    margin-top: 50px;
+    text-align: center;
+     text-decoration: solid;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-style: normal;
+     line-height: normal;
+}
+#container{
+   
+    flex-wrap: nowrap;
+    border: 3px solid black;
+    margin: 150px,50px 50px 150px;
+    padding: 100px;
+    height:50%;
+    width: 50%;
+    background-color:hsl(60, 48%, 94%);
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    box-shadow: 2px 2px 15px black;
+    transition: none;
+    
+}
+body{
+    background-color: rgb(222, 255, 255);
+}
+/* #container:hover{
+    box-shadow: 2px 2px 15px black;
+    transition: none;
+} */
